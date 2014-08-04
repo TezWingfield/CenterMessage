@@ -1,0 +1,31 @@
+﻿.overlay {
+    background-color: #000;
+    bottom: 0;
+    display: none;
+    left: 0;
+    opacity: 0.8;
+    filter: alpha(opacity = 80); /* IE7 & 8 */
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+.center-me-wrapper 
+{
+    z-index: 100;
+}
+.center-me-content 
+{
+    margin:0px auto;
+    width:50%;
+    text-align:center;
+    padding:30px;
+    font-size:20px;
+}
+    .center-me-content img 
+    {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:10px;
+    }
