@@ -10,7 +10,7 @@ As this is new and development will continue to grow, it has only been tested in
 
 Tested with jQuery versions 1.4+
 
-Usage
+## Usage
 
 Declare scripts/css
 
@@ -22,8 +22,8 @@ Applying to a click event/Ajax callback seems to fit most requirements (only acc
 $('body').centerMe({ top: '30%', message: "Welcome To Center Message", seconds: 2000 });
 
 
-//Editable properties
-
+## Editable properties
+```javascript
 $('body').centerMe
  ({ 
    image: "csloader.gif",
@@ -36,11 +36,12 @@ $('body').centerMe
    fontColor: '#fff',
    type: 'alert'
  });
+ ```
  
  Editing the image property only works if the type property equals to insert (type='insert'), which simply 
  adds a animated loader gif.
  
  Plug straight in without any html modification.
  
- Demo here:
+ ## Demo here:
  http://www.tezwingfield.co.uk/CenterMessage/
