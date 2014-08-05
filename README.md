@@ -22,7 +22,7 @@ Applying to a click event/Ajax callback seems to fit most requirements (only acc
 $('body').centerMe({ top: '30%', message: "Welcome To Center Message", seconds: 2000 });
 
 
-## Editable properties
+## Options
 ```javascript
 $('body').centerMe
  ({ 
@@ -38,8 +38,8 @@ $('body').centerMe
  });
  ```
  
- Editing the image property only works if the type property equals to insert (type='insert'), which simply 
- adds a animated loader gif.
+ Editing the image option only works if the type option equals to insert (type='insert'), which simply 
+ adds an animated loader gif.
  
  Plug straight in without any html modification.
  
