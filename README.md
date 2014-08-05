@@ -43,5 +43,5 @@ $('body').centerMe
  
  Plug straight in without any html modification.
  
- ## Demo
+ ## Demo 
  http://www.tezwingfield.co.uk/CenterMessage/
