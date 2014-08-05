@@ -13,14 +13,16 @@ Tested with jQuery versions 1.4+
 ## Usage
 
 Declare scripts/css
-
+```html
 <link href="/css/center-message.css" rel="stylesheet" />
 <script src="/scripts/jquery-1.11.0.min.js"></script>
 <script src="/scripts/CenterMessage.js"></script>
-
+```
 Applying to a click event/Ajax callback seems to fit most requirements (only accepts body selector)
-$('body').centerMe({ top: '30%', message: "Welcome To Center Message", seconds: 2000 });
 
+```javascript
+$('body').centerMe({ top: '30%', message: "Welcome To Center Message", seconds: 2000 });
+```
 
 ## Options
 ```javascript
